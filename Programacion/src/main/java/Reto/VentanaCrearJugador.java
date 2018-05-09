@@ -10,4 +10,13 @@ public class VentanaCrearJugador {
     private JButton crearButton;
     private JButton cancelarButton;
     private JPanel VentanaCrearJugador;
+
+
+    public VentanaCrearJugador() {
+        JFrame frame = new JFrame("VentanaCrearJugador");
+        frame.setContentPane(VentanaCrearJugador);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }

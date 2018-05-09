@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class VentanaAdmi {
-    private JComboBox combo;
+    private JComboBox elegirComboBox;
     private JButton crearButton;
     private JButton modificarButton;
     private JButton eliminarButton;
@@ -19,17 +19,33 @@ public class VentanaAdmi {
         frame.pack();
         frame.setVisible(true);
 
-        combo = new JComboBox();
-        combo.addItem("Dueños");
-        combo.addItem("Equipos");
-        combo.addItem("Jugadores");
+
+        DefaultComboBoxModel elegirComboBoxModel = new DefaultComboBoxModel();
+        elegirComboBox.setModel(elegirComboBoxModel);
+        elegirComboBoxModel.addElement("Jugadores");
+        elegirComboBoxModel.addElement("Equipos");
+        elegirComboBoxModel.addElement("Duenios");
 
         crearButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
+                String seleccion = elegirComboBoxModel.getSelectedItem().toString();
+                JOptionPane.showMessageDialog(null, seleccion);
 
+                if(seleccion.equalsIgnoreCase("Jugadores")){
 
+                    VentanaCrearJugador jugador = new VentanaCrearJugador();
+                }
 
+                if(seleccion.equalsIgnoreCase("Equipos")){
+
+                    VentanaCrearEquipo equipo = new VentanaCrearEquipo();
+                }
+
+                if(seleccion.equalsIgnoreCase("Duenios")) {
+
+                    VentanaCrearDuenio duenio = new VentanaCrearDuenio();
+                }
 
             }
         });

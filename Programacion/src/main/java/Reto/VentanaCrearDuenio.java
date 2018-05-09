@@ -9,4 +9,12 @@ public class VentanaCrearDuenio {
     private JButton crearButton;
     private JButton cancelarButton;
     private JPanel VentanaCrearDuenio;
+
+    public VentanaCrearDuenio() {
+        JFrame frame = new JFrame("VentanaCrearDuenio");
+        frame.setContentPane(VentanaCrearDuenio);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }

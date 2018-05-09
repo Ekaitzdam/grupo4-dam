@@ -26,7 +26,7 @@ public class Login {
                 String Usuario = textField1.getText();
                 String Contrasenia = passwordField1.getText();
 
-                if(Usuario.equalsIgnoreCase("Administrador")){
+                if(Usuario.equalsIgnoreCase("Admi")){
 
                     VentanaAdmi admi = new VentanaAdmi();
 
