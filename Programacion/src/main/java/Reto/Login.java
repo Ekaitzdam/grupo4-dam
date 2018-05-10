@@ -5,19 +5,30 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Login {
+
     private JTextField textField1;
     private JPasswordField passwordField1;
     private JButton registrarseButton;
     private JButton salirButton;
-    private JPanel Login;
+    private JPanel panelLogin;
     private JButton iniciarSesionButton;
 
 
     public Login() {
+        final JFrame frame = new JFrame("panelLogin");
+        frame.setContentPane(panelLogin);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(iniciarSesionButton);
+        frame.setVisible(true);
+
         registrarseButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
                 VentanaRegistrar registrar = new VentanaRegistrar();
+                frame.dispose();
+
             }
         });
         iniciarSesionButton.addActionListener(new ActionListener() {
@@ -29,7 +40,7 @@ public class Login {
                 if(Usuario.equalsIgnoreCase("Admi")){
 
                     VentanaAdmi admi = new VentanaAdmi();
-
+                    frame.dispose();
 
                 } else{
                     System.out.println("Usuario o contraseña incorrecto");
@@ -41,11 +52,7 @@ public class Login {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Login");
-        frame.setContentPane(new Login().Login);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+        Reto.Login login = new Login();
 
 
 

@@ -15,8 +15,9 @@ public class VentanaRegistrar {
     public VentanaRegistrar() {
         JFrame frame = new JFrame("VentanaRegistrar");
         frame.setContentPane(VentanaRegistrar);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 }

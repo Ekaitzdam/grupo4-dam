@@ -15,8 +15,9 @@ public class VentanaCrearJugador {
     public VentanaCrearJugador() {
         JFrame frame = new JFrame("VentanaCrearJugador");
         frame.setContentPane(VentanaCrearJugador);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 }
