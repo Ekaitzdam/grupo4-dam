@@ -27,7 +27,7 @@ public class Login {
             public void actionPerformed(ActionEvent e) {
 
                 VentanaRegistrar registrar = new VentanaRegistrar();
-                frame.dispose();
+
 
             }
         });
@@ -35,7 +35,7 @@ public class Login {
             public void actionPerformed(ActionEvent e) {
 
                 String Usuario = textField1.getText();
-                String Contrasenia = passwordField1.getText();
+                String Contrasenia = new String(passwordField1.getPassword());
 
                 if(Usuario.equalsIgnoreCase("Admi")){
 
@@ -47,6 +47,13 @@ public class Login {
                 }
                 textField1.setText("");
                 passwordField1.setText("");
+            }
+        });
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+
             }
         });
     }

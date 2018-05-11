@@ -1,6 +1,8 @@
 package Reto;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class VentanaCrearDuenio {
     private JTextField textField1;
@@ -17,5 +19,11 @@ public class VentanaCrearDuenio {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        cancelarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+            }
+        });
     }
 }

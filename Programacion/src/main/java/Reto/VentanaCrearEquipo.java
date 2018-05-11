@@ -1,6 +1,8 @@
 package Reto;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class VentanaCrearEquipo {
     private JPanel VentanaCrearEquipo;
@@ -17,5 +19,11 @@ public class VentanaCrearEquipo {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        cancelarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+            }
+        });
     }
 }

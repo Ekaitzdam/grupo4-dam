@@ -10,6 +10,7 @@ public class VentanaAdmi {
     private JButton modificarButton;
     private JButton eliminarButton;
     private JPanel VentanaAdmi;
+    private JButton salirButton;
 
 
     public VentanaAdmi() {
@@ -25,13 +26,13 @@ public class VentanaAdmi {
         elegirComboBox.setModel(elegirComboBoxModel);
         elegirComboBoxModel.addElement("Jugadores");
         elegirComboBoxModel.addElement("Equipos");
-        elegirComboBoxModel.addElement("Duenios");
+        elegirComboBoxModel.addElement("Dueños");
 
         crearButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
                 String seleccion = elegirComboBoxModel.getSelectedItem().toString();
-                JOptionPane.showMessageDialog(null, seleccion);
+
 
                 if(seleccion.equalsIgnoreCase("Jugadores")){
 
@@ -43,7 +44,7 @@ public class VentanaAdmi {
                     VentanaCrearEquipo equipo = new VentanaCrearEquipo();
                 }
 
-                if(seleccion.equalsIgnoreCase("Duenios")) {
+                if(seleccion.equalsIgnoreCase("Dueños")) {
 
                     VentanaCrearDuenio duenio = new VentanaCrearDuenio();
                 }
@@ -51,5 +52,11 @@ public class VentanaAdmi {
             }
         });
 
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+            }
+        });
     }
 }
