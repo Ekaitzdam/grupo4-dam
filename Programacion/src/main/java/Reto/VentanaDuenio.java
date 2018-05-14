@@ -1,0 +1,48 @@
+package Reto;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class VentanaDuenio {
+    private JButton gestionarJugadoresButton;
+    private JButton fijarJugadorButton;
+    private JButton resultadosButton;
+    private JButton clasificacionButton;
+    private JButton salirButton;
+    private JPanel VentanaDuenio;
+
+
+    public VentanaDuenio() {
+        JFrame frame = new JFrame("VentanaDuenio");
+        frame.setContentPane(VentanaDuenio);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+
+        salirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.dispose();
+
+            }
+        });
+
+
+        gestionarJugadoresButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                VentanaGestionJugador gestion = new VentanaGestionJugador();
+
+            }
+        });
+        resultadosButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
+}

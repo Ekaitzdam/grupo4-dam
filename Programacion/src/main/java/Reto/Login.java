@@ -42,6 +42,10 @@ public class Login {
                     VentanaAdmi admi = new VentanaAdmi();
                     frame.dispose();
 
+                } else if(Usuario.equalsIgnoreCase("Duenio")){
+                    VentanaDuenio duenio = new VentanaDuenio();
+                    frame.dispose();
+
                 } else{
                     System.out.println("Usuario o contraseña incorrecto");
                 }
