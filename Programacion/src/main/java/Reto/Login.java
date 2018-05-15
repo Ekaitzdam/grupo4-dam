@@ -25,9 +25,7 @@ public class Login {
 
         registrarseButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
                 VentanaRegistrar registrar = new VentanaRegistrar();
-
 
             }
         });
@@ -38,15 +36,18 @@ public class Login {
                 String Contrasenia = new String(passwordField1.getPassword());
 
                 if(Usuario.equalsIgnoreCase("Admi")){
-
                     VentanaAdmi admi = new VentanaAdmi();
                     frame.dispose();
 
-                } else if(Usuario.equalsIgnoreCase("Duenio")){
+                } else if(Usuario.equalsIgnoreCase("Duenio")) {
                     VentanaDuenio duenio = new VentanaDuenio();
                     frame.dispose();
 
-                } else{
+                }else if(Usuario.equalsIgnoreCase("Usuario")){
+                    VUResultado resultado = new VUResultado();
+                    frame.dispose();
+
+                } else {
                     System.out.println("Usuario o contraseña incorrecto");
                 }
                 textField1.setText("");

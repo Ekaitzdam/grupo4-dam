@@ -7,8 +7,7 @@ import java.awt.event.ActionListener;
 public class VentanaAdmi {
     private JComboBox elegirComboBox;
     private JButton crearButton;
-    private JButton modificarButton;
-    private JButton eliminarButton;
+    private JButton gestionarButton;
     private JPanel VentanaAdmi;
     private JButton salirButton;
 
@@ -56,6 +55,34 @@ public class VentanaAdmi {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
+            }
+        });
+        gestionarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                String seleccion = elegirComboBoxModel.getSelectedItem().toString();
+
+
+                if(seleccion.equalsIgnoreCase("Jugadores")){
+
+
+                }
+
+                if(seleccion.equalsIgnoreCase("Equipos")){
+
+
+                }
+
+                if(seleccion.equalsIgnoreCase("Dueños")) {
+
+
+                }
+
+
+
+
+
             }
         });
     }

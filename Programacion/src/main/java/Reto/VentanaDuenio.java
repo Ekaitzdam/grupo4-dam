@@ -42,6 +42,8 @@ public class VentanaDuenio {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+                VUResultado resultado = new VUResultado();
+
             }
         });
     }
