@@ -4,10 +4,10 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class VentanaGestionJugador {
+public class VentanaDGestionJugador {
     private JList list1;
     private JCheckBox jugador1CheckBox;
-    private JPanel VGestionJugadores;
+    private JPanel VDGestionJugadores;
     private JCheckBox jugador2CheckBox;
     private JCheckBox jugador3CheckBox;
     private JCheckBox jugador4CheckBox;
@@ -17,9 +17,9 @@ public class VentanaGestionJugador {
     private JButton seleccionarButton;
     private JButton atrasButton;
 
-    public VentanaGestionJugador() {
-        JFrame frame = new JFrame("VentanaGestionJugador");
-        frame.setContentPane(VGestionJugadores);
+    public VentanaDGestionJugador() {
+        JFrame frame = new JFrame("VentanaDGestionJugador");
+        frame.setContentPane(VDGestionJugadores);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);

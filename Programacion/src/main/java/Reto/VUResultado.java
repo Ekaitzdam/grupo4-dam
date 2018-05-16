@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 public class VUResultado {
     private JPanel VUResultado;
     private JButton salirButton;
+    private JTable tabla;
 
     public VUResultado() {
         JFrame frame = new JFrame("VUResultado");
@@ -15,6 +16,9 @@ public class VUResultado {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+        tabla.setModel(new TablaClasificacionModel());
+
 
         salirButton.addActionListener(new ActionListener() {
             @Override

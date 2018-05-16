@@ -246,7 +246,12 @@
             </constraints>
             <properties/>
             <border type="none"/>
-            <children/>
+            <children>
+              <component id="bc7ce" class="javax.swing.JTable" binding="tabla">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
           </scrollpane>
         </children>
       </grid>

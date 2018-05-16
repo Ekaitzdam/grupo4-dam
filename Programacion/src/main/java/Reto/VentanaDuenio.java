@@ -34,7 +34,7 @@ public class VentanaDuenio {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                VentanaGestionJugador gestion = new VentanaGestionJugador();
+                VentanaDGestionJugador gestion = new VentanaDGestionJugador();
 
             }
         });

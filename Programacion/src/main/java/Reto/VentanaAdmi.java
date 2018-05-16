@@ -66,17 +66,17 @@ public class VentanaAdmi {
 
                 if(seleccion.equalsIgnoreCase("Jugadores")){
 
-
+                    VentanaGestionarJugador jugador = new VentanaGestionarJugador();
                 }
 
                 if(seleccion.equalsIgnoreCase("Equipos")){
 
-
+                    VentanaGestionarEquipo equipo = new VentanaGestionarEquipo();
                 }
 
                 if(seleccion.equalsIgnoreCase("Dueños")) {
 
-
+                    VentanaGestionarDuenio duenio = new VentanaGestionarDuenio();
                 }
 
 
