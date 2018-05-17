@@ -32,5 +32,13 @@ public class VentanaGestionarJugador {
                 VConfirmarEliminacion eliminar = new VConfirmarEliminacion();
             }
         });
+        modificarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                VentanaModificarJugador jugador = new VentanaModificarJugador();
+
+            }
+        });
     }
 }

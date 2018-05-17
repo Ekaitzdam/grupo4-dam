@@ -13,25 +13,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VentanaGestionarJugador.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.java">
+      <file leaf-file-name="VentanaModificarDuenio.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarDuenio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+            <state relative-caret-position="171">
+              <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VUResultado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUResultado.java">
+      <file leaf-file-name="VentanaModificarEquipo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarEquipo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="205">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,67 +39,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VConfirmarEliminacion.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VConfirmarEliminacion.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="VentanaGestionarDuenio.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.java">
+      <file leaf-file-name="VentanaModificarJugador.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarJugador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TablaClasificacionModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/TablaClasificacionModel.java">
+      <file leaf-file-name="VentanaCrearDuenio.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file leaf-file-name="VentanaCrearDuenio.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="408">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VentanaDuenio.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaDuenio.form">
+      <file leaf-file-name="VentanaCrearEquipo.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file leaf-file-name="VUResultado.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUResultado.form">
+      <file leaf-file-name="VentanaCrearEquipo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VentanaCrearJugador.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#897#898#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VentanaCrearJugador.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file leaf-file-name="VentanaGestionarDuenio.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="VentanaGestionarEquipo.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.form">
-          <provider selected="true" editor-type-id="ui-designer" />
-        </entry>
-      </file>
-      <file leaf-file-name="VentanaGestionarJugador.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -120,13 +131,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Reto/Temporada.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/Equipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/Duenio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/Login.form" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.form" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.form" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VUClasificacion.form" />
@@ -134,15 +139,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaDuenio.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaDuenio.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionJugador.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionJugador.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaDGestionJugador.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VConfirmarEliminacion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.form" />
@@ -150,6 +151,22 @@
         <option value="$PROJECT_DIR$/src/main/java/Reto/VUResultado.form" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/VUResultado.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reto/TablaClasificacionModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarEquipo.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarDuenio.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarJugador.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarDuenio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarEquipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaModificarJugador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.form" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.java" />
       </list>
     </option>
   </component>
@@ -170,7 +187,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,12 +223,46 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Reto" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="grupo4dam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Reto" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="grupo4dam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Reto" type="462c0819:PsiDirectoryNode" />
+              <item name="VentanaCrearDuenio" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="grupo4dam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Reto" type="462c0819:PsiDirectoryNode" />
+              <item name="VentanaCrearEquipo" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="grupo4dam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programacion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Reto" type="462c0819:PsiDirectoryNode" />
+              <item name="VentanaCrearJugador" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +373,6 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23279649" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -332,6 +384,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -343,51 +396,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Jornada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -496,57 +504,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="e#844#845#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.form">
@@ -555,63 +513,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUClasificacion.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUClasificacion.form" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi2.form">
-      <provider selected="true" editor-type-id="ui-designer" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaDuenio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaDGestionJugador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaDGestionJugador.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VConfirmarEliminacion.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,18 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -644,37 +556,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VConfirmarEliminacion.form">
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUResultado.form">
       <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VUResultado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -686,17 +577,147 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Reto/TablaClasificacionModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="221">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaAdmi.form">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarJugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarEquipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaGestionarDuenio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarDuenio.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarEquipo.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarJugador.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarDuenio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarEquipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaModificarJugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.form">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearDuenio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearEquipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reto/VentanaCrearJugador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
           </folding>
         </state>
       </provider>

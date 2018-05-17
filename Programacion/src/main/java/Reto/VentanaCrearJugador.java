@@ -5,10 +5,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class VentanaCrearJugador {
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
-    private JTextField textField4;
+    private JTextField textoNombre;
+    private JTextField textoNickname;
+    private JTextField textoSueldo;
+    private JTextField textoCodigo;
     private JButton crearButton;
     private JButton cancelarButton;
     private JPanel VentanaCrearJugador;
@@ -25,6 +25,12 @@ public class VentanaCrearJugador {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
+            }
+        });
+        crearButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }

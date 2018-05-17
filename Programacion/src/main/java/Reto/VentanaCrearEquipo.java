@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 
 public class VentanaCrearEquipo {
     private JPanel VentanaCrearEquipo;
-    private JTextField textField1;
-    private JTextField textField2;
+    private JTextField textoNombre;
+    private JTextField textoSueldo;
     private JButton crearButton;
     private JButton cancelarButton;
 
@@ -23,6 +23,12 @@ public class VentanaCrearEquipo {
             @Override
             public void actionPerformed(ActionEvent e) {
                 frame.dispose();
+            }
+        });
+        crearButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }

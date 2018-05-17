@@ -25,5 +25,13 @@ public class VentanaGestionarEquipo {
                 frame.dispose();
             }
         });
+        modificarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                VentanaModificarEquipo equipo = new VentanaModificarEquipo();
+
+            }
+        });
     }
 }

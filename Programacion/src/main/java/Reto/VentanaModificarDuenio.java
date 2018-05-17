@@ -4,20 +4,21 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class VentanaCrearDuenio {
+public class VentanaModificarDuenio {
     private JTextField textoNombre;
     private JTextField textoApellidos;
-    private JTextField textoCodigo;
-    private JButton crearButton;
+    private JTextField textocodigo;
+    private JButton guardarButton;
     private JButton cancelarButton;
-    private JPanel VentanaCrearDuenio;
+    private JPanel VMDuenio;
 
-    public VentanaCrearDuenio() {
-        JFrame frame = new JFrame("VentanaCrearDuenio");
-        frame.setContentPane(VentanaCrearDuenio);
+    public VentanaModificarDuenio() {
+        JFrame frame = new JFrame("VentanaModificarDuenio");
+        frame.setContentPane(VMDuenio);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(guardarButton);
         frame.setVisible(true);
         cancelarButton.addActionListener(new ActionListener() {
             @Override
@@ -25,9 +26,15 @@ public class VentanaCrearDuenio {
                 frame.dispose();
             }
         });
-        crearButton.addActionListener(new ActionListener() {
+        guardarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+
+                textoNombre.setText("");
+                textoApellidos.setText("");
+                textocodigo.setText("");
+
 
             }
         });
