@@ -18,6 +18,7 @@ public class VentanaCrearDuenio {
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(crearButton);
         frame.setVisible(true);
         cancelarButton.addActionListener(new ActionListener() {
             @Override
@@ -28,6 +29,10 @@ public class VentanaCrearDuenio {
         crearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                textoNombre.setText("");
+                textoApellidos.setText("");
+                textoCodigo.setText("");
 
             }
         });

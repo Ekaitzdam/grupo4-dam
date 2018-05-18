@@ -20,6 +20,7 @@ public class VentanaCrearJugador {
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);
+        frame.getRootPane().setDefaultButton(crearButton);
         frame.setVisible(true);
         cancelarButton.addActionListener(new ActionListener() {
             @Override
@@ -30,6 +31,11 @@ public class VentanaCrearJugador {
         crearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                textoNombre.setText("");
+                textoNickname.setText("");
+                textoSueldo.setText("");
+                textoCodigo.setText("");
 
             }
         });

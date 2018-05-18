@@ -6,7 +6,7 @@
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <preferredSize width="250" height="250"/>
+      <preferredSize width="300" height="300"/>
     </properties>
     <border type="etched"/>
     <children>
@@ -28,7 +28,7 @@
           </component>
         </children>
       </grid>
-      <grid id="67818" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="67818" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
@@ -46,7 +46,7 @@
           </component>
           <component id="2184d" class="javax.swing.JButton" binding="salirButton" default-binding="true">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <text value="Salir"/>
@@ -58,6 +58,14 @@
             </constraints>
             <properties>
               <text value="Crear "/>
+            </properties>
+          </component>
+          <component id="3c819" class="javax.swing.JButton" binding="masButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Mas"/>
             </properties>
           </component>
         </children>

@@ -10,12 +10,13 @@ public class VentanaAdmi {
     private JButton gestionarButton;
     private JPanel VentanaAdmi;
     private JButton salirButton;
+    private JButton masButton;
 
 
     public VentanaAdmi() {
         JFrame frame = new JFrame("VentanaAdmi");
         frame.setContentPane(VentanaAdmi);
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
@@ -82,6 +83,13 @@ public class VentanaAdmi {
 
 
 
+
+            }
+        });
+        masButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                VentanaAdmi2 admi2 = new VentanaAdmi2();
 
             }
         });

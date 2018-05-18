@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class VentanaGestionarJugador {
-    private JComboBox comboBox1;
+    private JComboBox comboJugador;
     private JButton modificarButton;
     private JButton eliminarButton;
     private JButton atrasButton;

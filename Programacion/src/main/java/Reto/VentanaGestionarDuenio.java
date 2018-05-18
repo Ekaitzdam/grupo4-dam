@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class VentanaGestionarDuenio {
-    private JComboBox comboBox1;
+    private JComboBox comboDuenio;
     private JButton modificarButton;
     private JButton eliminarButton;
     private JButton atrasButton;
