@@ -23,7 +23,7 @@ public class VUResultado {
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                frame.dispose();
+               frame.dispose();
             }
         });
     }

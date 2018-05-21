@@ -9,6 +9,8 @@ public class Duenio {
     private String nombre;
     private String apellidos;
 
+    private List<Jugador> jugadores = new ArrayList<>();
+
 
     public Duenio(int cod_duenio, String nombre, String apellidos) {
         this.cod_duenio = cod_duenio;

@@ -55,7 +55,7 @@ public class VentanaAdmi {
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                frame.dispose();
+                System.exit(0);
             }
         });
         gestionarButton.addActionListener(new ActionListener() {

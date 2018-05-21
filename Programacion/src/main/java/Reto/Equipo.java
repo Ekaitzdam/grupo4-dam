@@ -8,6 +8,8 @@ public class Equipo {
     private String nombre_equipo;
     private double sueldo_anual;
 
+    private List<Jugador> jugadores = new ArrayList<>();
+
     public Equipo(String nombre_equipo, double sueldo_anual) {
         this.nombre_equipo = nombre_equipo;
         this.sueldo_anual = sueldo_anual;

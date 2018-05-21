@@ -33,5 +33,11 @@ public class VentanaGestionarEquipo {
 
             }
         });
+        eliminarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                VConfirmarEliminacion eliminar = new VConfirmarEliminacion();
+            }
+        });
     }
 }

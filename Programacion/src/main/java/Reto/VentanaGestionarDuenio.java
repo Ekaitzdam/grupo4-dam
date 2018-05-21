@@ -32,6 +32,12 @@ public class VentanaGestionarDuenio {
                 VentanaModificarDuenio duenio = new VentanaModificarDuenio();
             }
         });
+        eliminarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                VConfirmarEliminacion eliminar = new VConfirmarEliminacion();
+            }
+        });
     }
 
 

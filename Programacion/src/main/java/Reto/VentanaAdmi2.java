@@ -22,6 +22,11 @@ public class VentanaAdmi2 {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+
+
+
+
+
             }
         });
         introducirResultadosButton.addActionListener(new ActionListener() {
