@@ -29,7 +29,7 @@ public class VentanaDuenio {
             }
         });
 
-
+        /*Mediante este boton, el dueño elige a sus jugadores y los fija para el resto de la temporada*/
         gestionarJugadoresButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -38,6 +38,7 @@ public class VentanaDuenio {
 
             }
         });
+        /*Mediante este boton, el dueño puede ver los resultados de la ultima jornada y la clasificacion*/
         resultadosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

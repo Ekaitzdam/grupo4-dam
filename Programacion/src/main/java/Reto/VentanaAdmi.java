@@ -52,12 +52,15 @@ public class VentanaAdmi {
             }
         });
 
+        /*Con este boton salimos del programa*/
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
             }
         });
+
+        /*Con este boton gestionamos los jugadores, equipos y los dueños*/
         gestionarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -80,12 +83,10 @@ public class VentanaAdmi {
                     VentanaGestionarDuenio duenio = new VentanaGestionarDuenio();
                 }
 
-
-
-
-
             }
         });
+
+        /*Con este boton generamos calendarios y resultados*/
         masButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

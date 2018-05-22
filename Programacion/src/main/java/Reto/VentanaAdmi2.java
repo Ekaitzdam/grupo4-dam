@@ -18,17 +18,16 @@ public class VentanaAdmi2 {
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+
+        /*Aqui generamos el calendario aleatoriamente*/
         generarCalendarioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-
-
-
-
-
             }
         });
+
+        /*Mediante este boton, el administrador introduce los resultados de la temporada*/
         introducirResultadosButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -37,6 +36,8 @@ public class VentanaAdmi2 {
 
             }
         });
+
+        /*Retrocedemos a la ventana anterior*/
         atrasButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

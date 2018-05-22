@@ -23,12 +23,17 @@ public class Login {
         frame.getRootPane().setDefaultButton(iniciarSesionButton);
         frame.setVisible(true);
 
+
+        /*Mediante este boton accedemos a la ventana de registrar*/
         registrarseButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+
                 VentanaRegistrar registrar = new VentanaRegistrar();
 
             }
         });
+
+        /*Comparar si existen o no las cuentas y acceder a sus determinadas ventanas*/
         iniciarSesionButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
@@ -54,6 +59,8 @@ public class Login {
                 passwordField1.setText("");
             }
         });
+
+        /*Con este boton salimos del programa*/
         salirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -65,8 +72,5 @@ public class Login {
 
     public static void main(String[] args) {
         Reto.Login login = new Login();
-
-
-
     }
 }
